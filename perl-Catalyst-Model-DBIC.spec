@@ -24,6 +24,7 @@ BuildRequires:	perl-DBIx-Class-Loader
 BuildRequires:	perl(Class::Accessor::Chained::Fast)
 Requires:	perl(Class::Accessor::Chained::Fast)
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-root
 
 %description
 This is the DBIC model class for Catalyst. It is nothing more than a
